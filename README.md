@@ -1,0 +1,2 @@
+# Interactive Machine Learning Model Selector
+ The "Interactive Machine Learning Model Selector" is a Streamlit-based web application that enables users to explore various machine learning models interactively. It allows users to upload datasets, clean and preprocess data, visualize it, and apply different machine learning models. This application provides insights into model performance and helps users understand the effects of various features on model predictions.
