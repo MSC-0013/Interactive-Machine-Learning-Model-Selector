@@ -1,32 +1,32 @@
-# Interactive Machine Learning Model Selector
+Machine Learning Model Explorer
+This Streamlit application allows users to explore various machine learning models on their own datasets. Users can upload a CSV file, select target and feature columns, choose a machine learning model, and visualize the results including accuracy, confusion matrices, feature importance, and feature distributions.
 
-## Overview
+Features
+Upload CSV File: Upload your dataset in CSV format.
+Select Target and Feature Columns: Choose the columns to be used as target and features.
+Choose Model: Select from various machine learning models including:
+Logistic Regression
+Random Forest
+Support Vector Machine
+K-Means Clustering
+Linear Regression
+Decision Tree
+Model Evaluation: View model accuracy, confusion matrices, mean squared error, and feature importance.
+Feature Distribution Visualization: Display histograms of selected feature distributions.
 
-The "Interactive Machine Learning Model Selector" is a Streamlit-based web application that enables users to explore various machine learning models interactively. It allows users to upload datasets, clean and preprocess data, visualize it, and apply different machine learning models. This application provides insights into model performance and helps users understand the effects of various features on model predictions.
-
-## Features
-
-- **Data Upload:** Upload CSV or SQL files for analysis.
-- **Data Cleaning:** Options to remove rows with missing values and duplicates.
-- **Feature Encoding:** Automatically encodes categorical features into numeric values.
-- **Data Visualization:**
-  - Feature Correlation Heatmap
-  - Histograms for numeric columns
-  - Scatter plots for selected features
-- **Model Selection:** Choose from several machine learning models:
-  - Linear Regression
-  - Logistic Regression
-  - Decision Tree
-  - K-Nearest Neighbors
-  - Naive Bayes
-  - Clustering (K-Means)
-- **Model Evaluation:** Display performance metrics such as accuracy, mean squared error, and confusion matrix.
-
-## Installation
-
-To run this project locally, you need to install the required libraries. You can use the `requirements.txt` file provided in the repository.
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/ml-model-selector.git
+Usage
+Upload a CSV file: Use the file uploader in the sidebar to upload your dataset.
+Select Columns: Choose the target column and feature columns for modeling.
+Choose Model: Select the machine learning model from the sidebar.
+View Results: After model training, view the accuracy, confusion matrix, mean squared error, feature importance, and feature distributions.
+Models
+Logistic Regression: Used for binary or multi-class classification tasks.
+Random Forest: An ensemble method for classification and regression tasks.
+Support Vector Machine (SVM): Suitable for classification tasks.
+K-Means Clustering: An unsupervised learning algorithm used for clustering.
+Linear Regression: Used for regression tasks.
+Decision Tree: Can be used for both classification and regression tasks.
+Notes
+Ensure your dataset has a clearly defined target column and feature columns.
+For classification tasks, the target variable should be categorical.
+For regression tasks, the target variable should be continuous.
